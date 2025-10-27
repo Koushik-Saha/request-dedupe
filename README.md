@@ -150,6 +150,16 @@ export function useFetchUser(userId: string) {
 }
 ```
 
+
+# request-dedupe-ts 🔄
+
+[![npm version](https://badge.fury.io/js/request-dedupe-ts.svg)](https://badge.fury.io/js/request-dedupe-ts)
+[![npm downloads](https://img.shields.io/npm/dm/request-dedupe-ts.svg)](https://www.npmjs.com/package/request-dedupe-ts)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/badge/GitHub-request--dedupe--ts-black?logo=github)](https://github.com/koushiksaha/request-dedupe-ts)
+
+A lightweight, TypeScript-first utility to deduplicate concurrent API requests...
+
 ## Testing
 ```bash
 npm test
