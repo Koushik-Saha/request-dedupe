@@ -28,10 +28,7 @@ __export(src_exports, {
 });
 module.exports = __toCommonJS(src_exports);
 function createDeduplicator(options = {}) {
-  const {
-    duration = 100,
-    clearOnError = true
-  } = options;
+  const { duration = 100, clearOnError = true } = options;
   const cache = /* @__PURE__ */ new Map();
   const dedupe2 = async (key, fetcher) => {
     if (!key || typeof key !== "string") {
