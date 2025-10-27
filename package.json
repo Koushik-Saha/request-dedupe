@@ -5,38 +5,27 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
-    }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Koushik-Saha/request-dedupe.git"
   },
-  "files": [
-    "dist",
-    "README.md",
-    "LICENSE"
+  "homepage": "https://github.com/Koushik-Saha/request-dedupe#readme",
+  "bugs": {
+    "url": "https://github.com/Koushik-Saha/request-dedupe/issues"
+  },
+  "keywords": [
+    "dedupe",
+    "deduplication",
+    "request",
+    "cache",
+    "api",
+    "fetch",
+    "concurrent",
+    "typescript"
   ],
-  "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "format": "prettier --write \"src/**/*.ts\"",
-    "lint": "eslint src/**/*.ts",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm run build && npm run test"
-  },
-  "keywords": ["dedupe", "request", "cache", "api", "fetch"],
-  "author": "Your Name",
+  "author": "Your Name <your.email@example.com>",
   "license": "MIT",
-  "devDependencies": {
-    "@types/jest": "^29.5.0",
-    "@types/node": "^20.0.0",
-    "eslint": "^8.0.0",
-    "jest": "^29.5.0",
-    "prettier": "^3.0.0",
-    "ts-jest": "^29.1.0",
-    "tsup": "^7.2.0",
-    "typescript": "^5.0.0"
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
