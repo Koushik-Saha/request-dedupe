@@ -1,5 +1,5 @@
 {
-  "name": "koushiksaha-request-dedupe",
+  "name": "request-dedupe-ts",
   "version": "0.1.0",
   "description": "Deduplicate concurrent API requests to prevent duplicate calls",
   "main": "dist/index.js",
